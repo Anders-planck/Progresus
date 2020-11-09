@@ -1,0 +1,216 @@
+@media only screen and (max-width:600px) {
+    .project_container {
+        display: block;
+    }
+    .project_container img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .sidebar_left .article {
+        text-align: left;
+    }
+    .container_side {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width:800px) {
+    .container_intro {
+        width: 80%;
+    }
+    .container_items {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .item {
+        width: 300px;
+        margin: 20px;
+        margin: 20px auto;
+    }
+    .questions {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .questions .item {
+        width: 40%;
+        margin: 20px;
+    }
+    .header {
+        min-height: 50vh;
+    }
+    .container_about {
+        width: 90%;
+    }
+    .container_about {
+        width: 50%;
+    }
+    .container_About {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .sides_content {
+        width: 95%;
+    }
+    .container_contact {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .container_if_form {
+        margin-right: 10%;
+    }
+    .contact input {
+        width: 30.33%;
+        display: inline;
+    }
+    .select {
+        width: 300px;
+        margin: 0;
+    }
+    .select .check {
+        width: 20px;
+    }
+    .contact .submit {
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .container_sign {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    .container_navBar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu_links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu_burger {
+        display: none;
+    }
+    .menu_links a {
+        margin-right: 20px;
+    }
+    .pages {
+        margin-right: 20px;
+    }
+    .sign {
+        width: 200px;
+    }
+    .container_about {
+        width: 70%;
+    }
+    .container_footer {
+        width: 50%;
+        display: flex;
+    }
+    .chlid {
+        width: 30%;
+    }
+    .copy,
+    .menu_footer {
+        width: 50%;
+    }
+    .sides_content {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .container_sign {
+        width: 55%;
+    }
+}
+
+@media only screen and (min-width:1400px) {
+    .container_About {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    .container_left {
+        width: 660px;
+        margin-right: 20px;
+    }
+    .projet .container_right {
+        width: calc(100%-660px);
+    }
+    .projet {
+        width: 1000px;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    .projet img {
+        width: 30%;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .projet_text {
+        width: 50%;
+    }
+    .right {
+        width: 50%;
+        margin-top: 30px;
+    }
+    .left {
+        width: 50%;
+        margin-top: 30px;
+    }
+    .container_contact {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+    }
+    .container_sign {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .container_sign {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width:1475px) {
+    .container_navBar {
+        width: 70%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .logo_burger {
+        margin-right: 20%;
+    }
+    .menu_links {
+        justify-content: space-around;
+    }
+    .container_contact {
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+    }
+    .container_sign {
+        width: 25%;
+    }
+    .up {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width:1300px) {
+    .container_About {
+        width: 60%;
+    }
+    .container_left {
+        width: 70%;
+        margin-right: 20px;
+    }
+    .container_right {
+        width: 25%;
+    }
+}
